@@ -57,9 +57,7 @@ function Starts_karusel(s) {
         // alert(q + " " + "---готовый массив получен из сортировки 'предыдуший элемент'");
         document.getElementById('image_set').src = q[0];
         // alert('Перестроение картинок на экране, действие - "предыдущая картинка"');
-    }
-
-    if (s == 2) {
+    } else {
         // alert(bufImage + ' ' + ' "---состояние массива"');
         let q = get_karusel();
         // alert(q + ' ' + ' "---получен из карусели"');
